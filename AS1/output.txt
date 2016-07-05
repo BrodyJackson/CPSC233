@@ -1,0 +1,54 @@
+Script started on Sun May 22 23:59:35 2016
+[?1034hbash-3.2$ exitjava Salaries [6@c Salaries.java[C
+bash-3.2$ javac Salaries.java [C[C[C[C[C[C[C[C[C[Cexit[Kjava Salaries 
+Please enter a software developers initials
+abc
+Please enter this employees salary as a number
+45000
+abc earns $45000
+Please enter a software developers initials
+def
+Please enter this employees salary as a number
+65000
+def earns $65000
+Please enter a software developers initials
+ghi
+Please enter this employees salary as a number
+75000
+ghi earns $75000
+Please enter a software developers initials
+jkl
+Please enter this employees salary as a number
+90000
+jkl earns $90000
+Please enter a software developers initials
+mno
+Please enter this employees salary as a number
+120000
+mno earns $120000
+Please enter a software developers initials
+
+sentinel detected, info for the values entered will be provided below: 
+
+abc earns $45000
+def earns $65000
+ghi earns $75000
+jkl earns $90000
+mno earns $120000
+
+The total number of salary's paid was: 5
+The total amount of salary paid to employees was: $395000.0
+The Highest Salary is: $120000.0
+The Lowest Salary is: $45000.0
+The Average Salary is: $79000.0
+There are: 1 Internship Developers
+There are: 0 Junior Developers
+There are: 1 Developers
+There are: 2 Senior Developers
+There are: 0 Project Lead Developers
+There are: 1 Technical Leads
+The average position is based on salary is: Senior Developer
+bash-3.2$ exit
+exit
+
+Script done on Mon May 23 00:00:38 2016

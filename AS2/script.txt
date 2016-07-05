@@ -1,0 +1,84 @@
+This program contains both the Car class and the TestCarSystemClass, by running the TestCarSystem class the program will first ask for the parameters to create three different cars. Then a car will be created with default values, which you will be asked to enter (these are changed with setter methods). While doing this the program will do error checking to make sure that you are providing a valid entry, it will also check if the manufacturing year is actually an integer and if it is possible for a car to be created at that time. The program will then ask for three speeds for the first three cars, which also have error checking. After this all the information for the 4 active cars will be printed along with how many are active. Next, the last created car will move at a random speed, and the first car will stop moving. After this the user is prompted to enter a distance and the program will calculate the travel time for each car. The program will then identify any identical cars(Please note that this takes into account spaces that you may have entered in the car info stage), and print their info. The second car is then sent to garbage collection and the number of active instances is printed. Next, a car is created which is a copy of the first car, which moves at the average speed of all cars. Finally the info for all the remaining cars is printed. 
+
+A sample run-through of this program is as follows:
+
+Script started on Sun Jun  5 21:54:53 2016
+[?1034hbash-3.2$ java TestCarSystem
+Please enter the make of car 1 (Exp. Honda)
+honda
+Please enter the model of car1 (Exp. Civic)
+civic
+Please enter the colour of car 1 (Exp. White)
+white
+Please enter the manufacturing year of car 1 (Exp. 2015)
+2008
+Please enter the make of car 2 (Exp. Honda)
+Chrysler
+Please enter the model of car2 (Exp. Civic)
+pacifica
+Please enter the colour of car 2 (Exp. White)
+blue
+Please enter the manufacturing year of car 2 (Exp. 2015)
+2006
+Please enter the make of car 3 (Exp. Honda)
+honda
+Please enter the model of car3 (Exp. Civic)
+civic
+Please enter the colour of car 3 (Exp. White)
+white
+Please enter the manufacturing year of car 3 (Exp. 2015)
+2008
+A final car was just created with default values, please enter the info to set for this car
+Please enter the make of car 4 (Exp. Honda)
+bmw
+Please enter the model of car4 (Exp. Civic)
+m3
+Please enter the colour of car 4 (Exp. White)
+blue
+Please enter the manufacturing year of car 4 (Exp. 2015)
+2003
+Please enter the speed value in KM/hour for car 1
+50
+Car 1 is now moving at 50.0 KM/hour
+Please enter the speed value in KM/hour for car 2
+80
+Car 2 is now moving at 80.0 KM/hour
+Please enter the speed value in KM/hour for car 3
+100
+Car 3 is now moving at 100.0 KM/hour
+Here is the information for each car
+For car ID: 1 The make is: honda The model is: civic The colour is: white The manufacturing year is: 2008, And this car is moving at 50.0 KM/H
+For car ID: 2 The make is: chrystler The model is: pacifica The colour is: blue The manufacturing year is: 2006, And this car is moving at 80.0 KM/H
+For car ID: 3 The make is: honda The model is: civic The colour is: white The manufacturing year is: 2008, And this car is moving at 100.0 KM/H
+For car ID: 4 The make is: bmw The model is: m3 The colour is: blue The manufacturing year is: 2003, And this car is moving at 0.0 KM/H
+there are 4 cars that are active
+The last car you created will now move at some random speed...
+It is now moving at 165KM/hour
+The first car created will now stop moving...
+Car successfully stopped 
+We will now calculate how long a certain distance will take to travel for each car
+Please enter a distance to travel (KM)...
+300
+Car 1 is not moving so distance time = N/A
+Car 2 would take 3.75 hours to complete the trip
+Car 3 would take 3.00 hours to complete the trip
+Car 4 would take 1.82 hours to complete the trip
+The program is now testing to see if there are any identical cars
+car ID: 1 and car ID: 3 are identical, here is their info:
+ The make is: honda The model is: civic The colour is: white The manufacturing year is: 2008
+The program is now forcing garbage collection of the second car
+Car 2 was sucessfully garbage collected
+There are Currently 3 active cars 
+the system is now creating a new car which is a copy of the first car
+this copied car is moving at the average speed of all cars which is 88.33 KM/hour
+The Program will now print out the final number of active cars, and their information
+there are 4 cars that are active
+Here is the final information for each car:
+For car ID: 1 The make is: honda The model is: civic The colour is: white The manufacturing year is: 2008, And this car is moving at 0.0 KM/H
+For car ID: 3 The make is: honda The model is: civic The colour is: white The manufacturing year is: 2008, And this car is moving at 100.0 KM/H
+For car ID: 4 The make is: bmw The model is: m3 The colour is: blue The manufacturing year is: 2003, And this car is moving at 165.0 KM/H
+For car ID: 5 The make is: honda The model is: civic The colour is: white The manufacturing year is: 2008, And this car is moving at 88.33 KM/H
+bash-3.2$ exit
+exit
+
+Script done on Sun Jun  5 21:56:33 2016
